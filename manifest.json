@@ -1,0 +1,11 @@
+{
+  "name": "Test",
+  "description": "Test",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["background", "tabs", "webRequest", "webRequestBlocking", "*://*/*"],    
+  "background": {
+    "scripts": ["content.js"],
+    "persistent": true
+  }  
+}
